@@ -191,3 +191,26 @@ body {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 376px) {
+  #container {
+    max-width: 95%;
+    margin-block: 10px;
+  }
+
+  #search {
+    width: 100%;
+  }
+
+  #weather {
+    grid-template-columns: 1fr;
+  }
+
+  #weather #title {
+    font-size: 3.5rem;
+  }
+
+  #other_infos .info h2 {
+    font-size: 1.2rem;
+  }
+}
