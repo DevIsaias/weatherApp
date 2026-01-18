@@ -160,10 +160,10 @@ body {
   border-radius: 15px 15px 0px 0px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   background: linear-gradient(to right bottom, #3a7bff, #64edff);
-  color: var(--text-ternary);
+  color: var(--text-primary);
   gap: 1rem;
   animation: fade-in 1.5s ease-in-out forwards;
-  border-bottom: var(--accent-color4);
+  border-bottom: 2px solid var(--accent-color4);
 }
 
 #other_infos .info p {
@@ -173,14 +173,14 @@ body {
 #other_infos .info h2 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--text-ternary);
+  color: var(--text-primary);
 }
 
 #other_infos .info i {
   font-size: 1.5rem;
   width: 20%;
   text-align: center;
-  color: var(--text-ternary);
+  color: var(--text-primary);
 }
 
 #alert {
