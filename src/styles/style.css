@@ -159,7 +159,7 @@ body {
   padding: 10px 5px;
   border-radius: 15px 15px 0px 0px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  background-color: linear-gradient(to right bottom, #3a7bff, #64edff);
+  background: linear-gradient(to right bottom, #3a7bff, #64edff);
   color: var(--text-ternary);
   gap: 1rem;
   animation: fade-in 1.5s ease-in-out forwards;
