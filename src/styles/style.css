@@ -118,7 +118,7 @@ body {
   align-items: center;
   justify-content: space-around;
   gap: 1.3rem;
-  background-color: var(--text-secundary);
+    background: linear-gradient(to right bottom, #3a7bff, #64edff);
   color: var(--text-ternary);
   border-radius: 20px;
   padding: 20px;
