@@ -23,7 +23,7 @@ document.querySelector("#search").addEventListener("submit", async (e) => {
       tempMax: json.main.temp_max,
       tempMin: json.main.temp_min,
       description: json.weather[0].description,
-      tempIcon: json.weather[0].icon,
+      tempIcon: json.weather[0].icon, //if icon = ... shows ... icon; this is the next thing that I wanted to do!
       windSpeed: json.wind.speed,
       humidity: json.main.humidity,
     });
