@@ -189,6 +189,7 @@ body {
   color: var(--text-secundary);
   margin-top: 1.3rem;
   animation: fade-in 0.2s ease-in-out forwards;
+  // hide the info sec when do not find the city;
 }
 
 @keyframes fade-in {
