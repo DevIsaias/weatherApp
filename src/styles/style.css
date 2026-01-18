@@ -120,7 +120,7 @@ body {
   gap: 1.3rem;
     background: linear-gradient(to right bottom, #3a7bff, #64edff);
   color: var(--text-ternary);
-  border-radius: 20px;
+  border-radius: 20px 20px 0px 0px;
   padding: 20px;
   animation: fade-in 0.7s ease-in-out forwards;
 }
