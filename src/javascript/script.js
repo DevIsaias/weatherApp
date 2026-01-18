@@ -28,7 +28,7 @@ document.querySelector("#search").addEventListener("submit", async (e) => {
       humidity: json.main.humidity,
     });
   } else {
-    showAlert("Não foi possivel localizar...");
+    showAlert("Não foi possivel localizar... Tente digitar novamente.");
   }
 });
 

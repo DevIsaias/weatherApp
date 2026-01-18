@@ -16,6 +16,7 @@
   --accent-color: #6d4aff;
   --accent-color2: #3a7bff;
   --accent-color3: #64edff;
+  --accent-color4: #64ff95;
 }
 
 body {
@@ -51,7 +52,15 @@ body {
 }
 
 #search:focus-within {
-  box-shadow: rgba(99, 99, 99, 0.466) 0px 2px 8px 0px;
+  box-shadow: rgba(94, 132, 255, 0.466) 0px 2px 8px 0px;
+}
+
+#search:focus-within i {
+  color: var(--accent-color2);
+}
+
+#search i {
+  transition: all .2s ease-in;
 }
 
 #search input {
@@ -98,9 +107,10 @@ body {
   text-align: center;
   margin-bottom: 5px;
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: bolder;
   color: var(--text-ternary);
   animation: fade-in 0.5s ease-in-out forwards;
+  text-transform: uppercase;
 }
 
 #temp {
@@ -136,7 +146,7 @@ body {
 }
 
 #other_infos {
-  margin-top: 30px;
+  margin-top: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
@@ -146,13 +156,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: start;
-  padding: 4px 10px;
-  border-radius: 8px;
+  padding: 10px 5px;
+  border-radius: 15px 15px 0px 0px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  background-color: var(--text-secundary);
+  background-color: linear-gradient(to right bottom, #3a7bff, #64edff);
   color: var(--text-ternary);
   gap: 1rem;
   animation: fade-in 1.5s ease-in-out forwards;
+  border-bottom: var(--accent-color4);
 }
 
 #other_infos .info p {
@@ -170,6 +181,13 @@ body {
   width: 20%;
   text-align: center;
   color: var(--text-ternary);
+}
+
+#alert {
+  font-size: 1.5rem;
+  color: var(--text-secundary);
+  margin-top: 1.3rem;
+  animation: fade-in 0.2s ease-in-out forwards;
 }
 
 @keyframes fade-in {
