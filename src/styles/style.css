@@ -164,7 +164,7 @@ body {
   color: var(--text-ternary);
   gap: 1rem;
   animation: fade-in 1.5s ease-in-out forwards;
-  border-bottom: 2px solid var(--accent-color4);
+  border-bottom: 2px solid var(--surface-cards);
 }
 
 #other_infos .info p {
