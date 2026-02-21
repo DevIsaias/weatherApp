@@ -13,14 +13,14 @@
   --text-primary: #ffffff;
   --text-secundary: #b3b3b3;
   --text-ternary: #372f3f;
-  /* --accent-color: #6d4aff; */
-  --accent-color: #420C14;
-  /* --accent-color2: #3a7bff; */
-  --accent-color2: #D76A03;
-  /* --accent-color3: #64edff; */
-  --accent-color3: #F5BB00;
-  /* --accent-color4: #64ff95; */
-  --accent-color4: #732C2C;
+  --accent-color: #6d4aff;
+  /* --accent-color: #420C14; */
+  --accent-color2: #3a7bff;
+  /* --accent-color2: #D76A03; */
+  --accent-color3: #64edff;
+  /* --accent-color3: #F5BB00; */
+  --accent-color4: #64ff95;
+  /* --accent-color4: #732C2C; */
 }
 
 body {
@@ -123,16 +123,19 @@ body {
   align-items: center;
   justify-content: space-around;
   gap: 1.3rem;
-  background-color: #64edff;
-  color: var(--text-ternary);
-  border-radius: 20px 20px 0px 0px;
-  padding: 20px;
+  /* background-color: #64edff; */
+  background-color: var(--surface-cards);
+  /* color: var(--text-ternary); */
+  color: var(--text-primary);
+  border-radius: 10px;
+  padding: 50px 20px;
   animation: fade-in 0.7s ease-in-out forwards;
-    border-bottom: 4px solid var(--surface-cards);
+  min-width: fit-content;
+    /* border-bottom: 4px solid var(--surface-cards); */
 }
 
 #temp_img {
-  animation: floating 3s ease infinite alternate;
+  animation: floating 3.5s ease infinite alternate;
 }
 
 #weather_img {
@@ -141,14 +144,14 @@ body {
 
 #temp_value {
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 7rem;
   line-height: 55px;
 }
 
 #temp_desc {
   font-weight: 500;
   text-transform: capitalize;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 #other_infos {
@@ -164,13 +167,15 @@ body {
   align-items: center;
   justify-content: start;
   padding: 10px 5px;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  background-color: #64edff;
-  color: var(--text-ternary);
+  /* background-color: #64edff; */
+  background-color: var(--surface-cards);
+  /* color: var(--text-ternary); */
+  color: var(--text-primary);
   gap: 1rem;
   animation: fade-in 1.5s ease-in-out forwards;
-  border-bottom: 4px solid var(--surface-cards);
+  /* border-bottom: 4px solid var(--surface-cards); */
 }
 
 #other_infos .info p {
@@ -195,7 +200,6 @@ body {
   color: var(--text-secundary);
   margin-top: 1.3rem;
   animation: fade-in 0.2s ease-in-out forwards;
-  // hide the info sec when do not find the city
 }
 
 @keyframes fade-in {
