@@ -13,10 +13,14 @@
   --text-primary: #ffffff;
   --text-secundary: #b3b3b3;
   --text-ternary: #372f3f;
-  --accent-color: #6d4aff;
-  --accent-color2: #3a7bff;
-  --accent-color3: #64edff;
-  --accent-color4: #64ff95;
+  /* --accent-color: #6d4aff; */
+  --accent-color: #420C14;
+  /* --accent-color2: #3a7bff; */
+  --accent-color2: #D76A03;
+  /* --accent-color3: #64edff; */
+  --accent-color3: #F5BB00;
+  /* --accent-color4: #64ff95; */
+  --accent-color4: #732C2C;
 }
 
 body {
@@ -191,7 +195,7 @@ body {
   color: var(--text-secundary);
   margin-top: 1.3rem;
   animation: fade-in 0.2s ease-in-out forwards;
-  // hide the info sec when do not find the city;
+  // hide the info sec when do not find the city
 }
 
 @keyframes fade-in {
